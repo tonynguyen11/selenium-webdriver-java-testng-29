@@ -46,7 +46,7 @@ public class Topic_03_Relative_Locator {
         //Password textbox
         By passwordTextboxBy = By.cssSelector("input#Password");
 
-        //GUI (location / postion)
+        //GUI (location / position)
         WebElement rememberMeTexElement = driver
                 .findElement(RelativeLocator.with(By.tagName("label"))
                 .above(loginButtonBy)
